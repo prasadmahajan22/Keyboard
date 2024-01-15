@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding-top: 0.5rem;
+}
+.showKey{
+    width: 40%;
+    padding: 1rem;
+    margin: 15rem auto 0 ;
+    
+    box-shadow: 0 0 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    
+    
+}
+
+span{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+   
+    color: rgba(0, 128, 0, 0.627);
+}
+
+.keycode{
+    
+    display: none;
+    width: 15%;
+    font-size: 8rem;
+    margin: 2.5rem auto 0;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(0, 128, 0, 0.627);
+    box-shadow: 0 0 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
+
+    
+}
